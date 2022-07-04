@@ -10,7 +10,7 @@
 </head> 
 <body>
     <a style="border-color: aliceblue;border-style:outset" href="index.html">Back</a>
-    <h1 style="color:white; background-color:darkred; text-align: center;">XSS with Javascript/JPEG Polyglot</h1><hr/>
+    <h1 style="color:white; background-color:aqua; text-align: center;">XSS with Javascript/JPEG Polyglot</h1><hr/>
     <img src="screenshotjava.jpg" alt="image"/>
     <h1 style="color:blue;">What is a polyglot?</h1>
     <p>Just like PNG, JPEG, and DOC are valid file types, polyglots are a combination of two different file types. For example Phar + JPEG (PHP archive and JPEG file), GIFAR (Gif and Rar file) Javascript + JPEG, etc.<br/>Applications allow only certain file types on features like file upload and don't allow other file types like .php or .js files as these can enable the attacker to upload malicious files on the application. Applications perform extension filtering checks like double extensions(.jpg.php) or use of null bytes in extension(.php%00.jpg), file names (.htaccess, .config, etc..), and if the uploaded file's signature also matches its content type.<br/>The different application uses different methods and polyglots can be used to bypass some of these validation checks.</p>
