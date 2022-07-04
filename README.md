@@ -1,4 +1,4 @@
-# MyFWebPages
+# MyWebPages
 Config files for my GitHub profile.
 # My Website Link 👇
 § https://nehakasbot.github.io/MYWebPages/
